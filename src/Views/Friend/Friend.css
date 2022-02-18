@@ -1,0 +1,229 @@
+
+
+   .App {
+    text-align: center;
+  }
+  
+  nav{
+    position: relative;
+    top:px;
+    left:120px;
+    width: 80%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    min-height: 10vh;
+    
+    background:#060b26;
+  }
+  .nav-links{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-weight:400;
+    color:white;
+    
+    
+  }
+  .friend{
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    display: flex;
+    text-transform:capitalize;
+    text-indent: 0.5rem;
+    margin-left: 50px;
+    padding-left:0px ;
+    
+  
+  }
+  .myfriend{
+    position: relative;
+    left: 500px;
+  align-items: center;
+  justify-content: justify;
+  width: 100%;
+  text-indent:0.5rem;
+  display: flex;
+  margin-left: 0px;
+  padding-left:0px;
+ 
+}
+
+  .ulll{
+    list-style:none;
+    display: row;
+  }
+
+
+  .add, .your{
+    border: 0;
+    line-height: 2.5;
+    padding-right: 20px;
+    font-size: 23px;
+    text-align: center;
+    color: black;
+    margin-left: 10px;
+    text-decoration: bold;
+  }
+  
+  .addbutton {
+      margin-top: 10px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 30px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    width:150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: slateblue;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.addbutton:hover {
+    background-color:rgb(137, 137, 209);
+}
+
+.addbutton:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.removebutton{
+  /* position: relative;
+  left: 100px; */
+
+  align-items: center;
+  justify-content: justify;
+    margin-top: 10px;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 30px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  width:130px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(238, 17, 17);
+  background-image: linear-gradient(to top left,
+                                    rgba(0, 0, 0, .2),
+                                    rgba(0, 0, 0, .2) 30%,
+                                    rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.removebutton:hover {
+  background-color: rgb(216, 148, 148);
+}
+
+.removebutton:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.headerInput {
+  display: flex;
+  align-items: center;
+  background-color: #eff2f5;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 99px;
+  height: 50px;
+}
+.headerInput input {
+  border: none;
+  background-color: transparent;
+  height: 50px;
+}.rightbar {
+  flex: 3.5;
+}
+
+.rightbarWrapper {
+  padding: 20px 20px 0 0;
+}
+
+.birthdayContainer {
+  display: flex;
+  align-items: center;
+}
+
+.birthdayImg {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.birthdayText {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.rightbarAd {
+  width: 100%;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.rightbarTitle{
+    margin-bottom: 20px;
+}
+
+.rightbarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.rightbarTitle{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.rightbarInfo{
+  margin-bottom: 30px;
+}
+
+.rightbarInfoItem{
+  margin-bottom: 10px;
+}
+
+.rightbarInfoKey{
+  font-weight: 500;
+  margin-right: 15px;
+  color: #555;
+}
+
+.rightbarInfoValue{
+  font-weight: 300;
+}
+
+.rightbarFollowings{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rightbarFollowing{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.rightbarFollowingImg{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
